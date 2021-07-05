@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -37,4 +40,31 @@ background-repeat: no-repeat;
     background-image: url(image/right\ part.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experence{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experence-item{
+box-shadow: 10px 10px 40px grey;
+margin-left: 5%;
+margin-right: 5%;
+width:40%;
+border-radius: 5px;
+padding-left: 15px;
+padding-right: 10px;
+}
+#Experence-item-one{
+border-left: 7px solid;
+border-image: linear-gradient(pink,salmon);
+border-image-slice: 1;
+}
+#Experence-item-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
